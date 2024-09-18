@@ -14,6 +14,7 @@ Route::get('/users', function () {
         dump($user->name);
         // dump($user->email);
         // update from corp
+        //update from own
     }
 });
 
