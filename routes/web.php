@@ -13,6 +13,7 @@ Route::get('/users', function () {
     foreach(User::all() as $user){
         dump($user->name);
         // dump($user->email);
+        //Update from laptop
     }
 });
 
