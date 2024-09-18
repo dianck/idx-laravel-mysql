@@ -12,7 +12,7 @@ Route::get('/users', function () {
     // return view('about');
     foreach(User::all() as $user){
         dump($user->name);
-        dump($user->email);
+        // dump($user->email);
     }
 });
 
